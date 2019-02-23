@@ -1,0 +1,90 @@
+/* Colors
+
+Red: #f64137
+Light Gray: #c2bdbd
+Medium Gray: #c8c1c1
+Dark Gray: #484242
+Black: #030202
+White: #e8e4e3
+
+*/
+
+/* GENERAL */
+
+body {
+  margin-top: 50px;
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-weight: bold;
+    font-family: Georgia, serif;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+  margin-top: 20px;
+}
+
+h1, h2 {
+  margin: 0 0 40px;
+}
+
+h3 {
+    margin: 20px 0;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+p {
+    margin: 0 0 15px;
+}
+
+p.lead {
+    font-weight: normal;
+}
+
+
+
+a:hover {
+    text-decoration: none;
+    color: #484242;
+}
+
+li:hover {
+  background-color: #c8c1c1;
+}
+
+a {
+  color: #e8e4e3;
+}
+
+
+.btn {
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  color: #e8e4e3;
+
+}
+
+li {
+  display: block;
+  margin-right: 20px;
+  padding: 20px;
+  color: #e8e4e3;
+  background-color: #484242;
+
+}
+
+.active {
+  background-color: #f64137;
+}
